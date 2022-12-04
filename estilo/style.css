@@ -21,4 +21,31 @@
     padding: 0;
 }
 
-    
+/*Body*/
+
+body {
+    background: var(--cor1) url(../images/bg-desktop.svg) left top no-repeat;
+    background-size: cover;
+    margin: 4vw;
+}
+
+/*Header*/
+
+header {
+    margin-bottom: 10vh;
+    display: inline-block;
+}
+
+header #logo img {
+    width: 20vw;
+}
+
+
+/*Medias Queries*/
+@media (max-width: 1024px) {
+
+    header #logo img{
+        width: 30vw;
+    }
+
+}
