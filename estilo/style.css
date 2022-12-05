@@ -103,7 +103,6 @@ footer #redes-sociais img {
     border: 2px solid white;
     border-radius: 30%;
     margin: 5px;
-    width: 40px;
 }
 
 footer #redes-sociais img:hover {
@@ -148,11 +147,11 @@ footer p a:hover {
     }
 
     main section h2  {
-        font-size: 5vw;
+        font-size: 4vw;
     }
 
     main section p {
-        font-size: 3.2vw;
+        font-size: 3vw;
     }
 
     main aside {
@@ -171,10 +170,6 @@ footer p a:hover {
 
     footer #redes-sociais {
         text-align: center;
-    }
-
-    footer #redes-sociais img {
-        width: 20px;
     }
 
 }
