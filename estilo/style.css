@@ -21,11 +21,14 @@
     padding: 0;
 }
 
+#clear {
+    clear: both;
+}
+
 /*Body*/
 
 body {
     background: var(--cor1) url(../images/bg-desktop.svg) left top no-repeat;
-    background-size: cover;
     margin: 4vw;
 }
 
@@ -38,6 +41,93 @@ header {
 
 header #logo img {
     width: 20vw;
+}
+
+/*Conteúdo*/
+
+main {
+    min-width: 768px;
+}
+
+main section {
+    float: right;
+    width: 49%;
+    margin-top: 5vw;
+    color: white;
+    margin-right: 10px;
+}
+
+section h2 {
+    padding: 15px 0;
+    font-family: var(--fonte-titulos);
+    font-size: 2.5vw;
+}
+
+section p {
+    font-family: var(--fonte-padrao);
+    font-size: 1.2vw;
+    padding-bottom: 15px;
+}
+
+section button {
+    font-family: var(--fonte-padrao);
+    font-size: 1.1em;
+    color: var(--cor1);
+    background: white;
+    padding: 15px 50px;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.486);
+}
+
+button:hover {
+    background-color: var(--cor2);
+    color: white;
+}
+
+main aside {
+    display: inline-block;
+    width: 49%;
+}
+
+aside img {
+    width: 100%;
+}
+
+/*Footer*/
+
+footer #redes-sociais {
+    height: 75px;
+    margin: 15px 0;
+    text-align: right;
+}
+
+footer #redes-sociais img {
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 30%;
+    margin: 5px;
+}
+
+footer #redes-sociais img:hover {
+    border: 4px solid var(--cor2);
+    transition: 0.2s;
+}
+
+footer p {
+    text-align: center; 
+    font-family: var(--fonte-padrao);
+    color: white;
+    font-size: 1.2em;
+}
+
+footer a {
+    font-weight: bold;
+    color: white;
+}
+
+footer p a:hover {
+    color: var(--cor2);
 }
 
 
