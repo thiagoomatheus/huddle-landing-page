@@ -45,10 +45,6 @@ header #logo img {
 
 /*Conteúdo*/
 
-main {
-    min-width: 768px;
-}
-
 main section {
     float: right;
     width: 49%;
@@ -132,27 +128,48 @@ footer p a:hover {
 
 
 /*Medias Queries*/
-@media (max-width: 800px) {
+@media (max-width: 768px) {
 
     header #logo img{
         width: 30vw;
     }
 
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
     main section {
-        border: 1px solid white;
-        display: block;
         float: none;
         width: 90vw;
+        order: 2;
+        text-align: center;
+    }
+
+    main section h2  {
+        font-size: 4vw;
+    }
+
+    main section p {
+        font-size: 3vw;
     }
 
     main aside {
-        border: 1px solid white;
         width: 90vw;
-        margin-bottom: ;
+        order: 1;
     }
 
     aside img {
-        margin: 0 auto;
+        margin: auto;
+        display: block;
+    }
+
+    footer p {
+        font-size: 2.5vw;
+    }
+
+    footer #redes-sociais {
+        text-align: center;
     }
 
 }
