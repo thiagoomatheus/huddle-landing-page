@@ -35,7 +35,7 @@ body {
 /*Header*/
 
 header {
-    margin-bottom: 10vh;
+    margin-bottom: 5vw;
     display: inline-block;
 }
 
@@ -65,7 +65,7 @@ section h2 {
 
 section p {
     font-family: var(--fonte-padrao);
-    font-size: 1.2vw;
+    font-size: 1.3vw;
     padding-bottom: 15px;
 }
 
@@ -74,7 +74,7 @@ section button {
     font-size: 1.1em;
     color: var(--cor1);
     background: white;
-    padding: 15px 50px;
+    padding: 15px 5vw;
     border-radius: 30px;
     border: none;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.486);
@@ -91,7 +91,7 @@ main aside {
 }
 
 aside img {
-    width: 100%;
+    width: 90%;
 }
 
 /*Footer*/
@@ -118,7 +118,7 @@ footer p {
     text-align: center; 
     font-family: var(--fonte-padrao);
     color: white;
-    font-size: 1.2em;
+    font-size: 1.3vw;
 }
 
 footer a {
@@ -132,10 +132,27 @@ footer p a:hover {
 
 
 /*Medias Queries*/
-@media (max-width: 1024px) {
+@media (max-width: 800px) {
 
     header #logo img{
         width: 30vw;
+    }
+
+    main section {
+        border: 1px solid white;
+        display: block;
+        float: none;
+        width: 90vw;
+    }
+
+    main aside {
+        border: 1px solid white;
+        width: 90vw;
+        margin-bottom: ;
+    }
+
+    aside img {
+        margin: 0 auto;
     }
 
 }
