@@ -68,6 +68,7 @@ section p {
 section button {
     font-family: var(--fonte-padrao);
     font-size: 1.1em;
+    font-weight: bold;
     color: var(--cor1);
     background: white;
     padding: 15px 5vw;
@@ -156,7 +157,8 @@ footer p a:hover {
     }
 
     main section button {
-        font-size: 2.7vw;
+        font-size: 3vw;
+        font-weight: bold;
     }
 
     main aside {
