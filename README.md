@@ -1,3 +1,11 @@
+<style>
+
+    body {
+        background: gray;
+    }
+
+</style>
+
 # Huddle
 
 Esse projeto foi criado com o propósito de treinar e aprofundar os conhecimentos na linguagens HTML e CSS e têm como base os desafios do site [frontendmentor.io](frontendmentor.io). O projeto é composto por três landing pages, sendo que, cada um deles trás novas habilidades a serem desenvolvidas. Veja cada um dos desafios:
