@@ -1,7 +1,7 @@
 <style>
 
-    body {
-        background: gray;
+    a {
+        pointer-events: none;
     }
 
 </style>
