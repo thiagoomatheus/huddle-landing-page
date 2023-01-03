@@ -11,12 +11,11 @@
         margin: 0 10px;
     }
 
-    header {
+    h1, h2 {
+        display: block;
         background: hsl(257, 40%, 49%);
         color: #fff;
         text-align: center;
-        height: 100px;
-        margin: auto;
     }
 
     main {
@@ -24,18 +23,9 @@
         max-width: 768px;
     }
 
-    main h2 {
-        display: block;
-        height: 100px;
-        margin: auto;
-    }
-
 </style>
 
-
-<header>
-    <img src="images/logo.svg" alt="Huddle">
-</header>
+<h1>Huddle</h1>
 
 <main>
     <p>Esse projeto foi criado com o propósito de treinar e aprofundar os conhecimentos na linguagens HTML e CSS e têm como base os desafios do site <a href="https://frontendmentor.io">frontendmentor.io</a>. O projeto é composto por três landing pages, sendo que, cada um deles trás novas habilidades a serem desenvolvidas. Veja cada um dos desafios:</p>
