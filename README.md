@@ -2,6 +2,12 @@
 
     a {
         pointer-events: none;
+        color: black;
+    }
+
+    #a-active {
+        pointer-events: all;
+        color: blue;
     }
 
 </style>
