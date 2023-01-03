@@ -25,7 +25,7 @@
 
     main {
         min-width: 300px;
-        max-width: 650;
+        max-width: 650px;
         margin: auto
     }
 
