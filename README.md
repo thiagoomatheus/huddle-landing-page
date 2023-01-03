@@ -1,5 +1,9 @@
 <style>
 
+    * {
+        font-family:
+    }
+
     a {
         pointer-events: none;
         color: black;
@@ -7,8 +11,15 @@
 
     #a-active {
         pointer-events: all;
-        color: blue;
+        color: hsl(257, 40%, 49%);
+        text-decoration: none;
+        padding: 5px 10px;
         margin: 0 10px;
+    }
+
+    #a-active:hover {
+        color: hsl(300, 69%, 71%);
+        background: hsl(257, 40%, 49%);
     }
 
     main h1, h2 {
@@ -21,6 +32,8 @@
     p {
         text-align: justify;
         line-height: 30px;
+        text-indent: 20px;
+        margin: 0 10px
     }
 
     main {
