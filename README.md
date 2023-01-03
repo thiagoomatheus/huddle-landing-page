@@ -18,8 +18,8 @@ Esse projeto foi criado com o propósito de treinar e aprofundar os conhecimento
 
 ## Huddle - Uma Nova Comunidade
 
-[Vizualize o Código Aqui](https://github.com/thiagoomatheus/huddle-landing-page/blob/main/index/landing-page1.html)
-[Visualize o Resultado Aqui](https://thiagoomatheus.github.io/huddle-landing-page/index/landing-page1.html)
+<a href='https://github.com/thiagoomatheus/huddle-landing-page/blob/main/index/landing-page1.html'>Vizualize o Código Aqui</a><br>
+<a href='https://thiagoomatheus.github.io/huddle-landing-page/index/landing-page1.html'>Visualize o Resultado Aqui</a><br>
 
 Nesse primeiro desafio temos algo mais simples, servindo como apresentação para o serviço Huddle e tendo o objetivo de capturar possíveis usuários.
 
