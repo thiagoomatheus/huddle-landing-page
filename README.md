@@ -8,24 +8,33 @@
     #a-active {
         pointer-events: all;
         color: blue;
+        margin: 0 10px;
     }
 
     header {
         background: hsl(257, 40%, 49%);
         color: #fff;
         text-align: center;
+        height: 100px;
+        margin: auto;
     }
 
-    header img {
-        
+    main {
+        min-width: 300px;
+        max-width: 768px;
+    }
+
+    main h2 {
+        display: block;
+        height: 100px;
+        margin: auto;
     }
 
 </style>
 
 
 <header>
-    <h1>Huddle</h1>
-    <img src="../images/logo.svg">
+    <img src="images/logo.svg" alt="Huddle">
 </header>
 
 <main>
