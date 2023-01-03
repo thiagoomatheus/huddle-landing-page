@@ -14,7 +14,7 @@
         color: hsl(257, 40%, 49%);
         text-decoration: none;
         padding: 5px 10px;
-        margin-bottom: 20px;
+        margin-bottom: 20px;,
     }
 
     #a-active:hover {
