@@ -14,7 +14,7 @@
     --fonte-padrao: 'Open Sans', sans-serif; 
 }
 
-/*Reset CSS*/
+/*Geral CSS*/
 
 * {
     margin: 0;
@@ -105,7 +105,7 @@ footer #redes-sociais img {
     border: 2px solid white;
     border-radius: 30%;
     margin: 5px;
-    width: 4vw;
+    width: 60px;
 }
 
 footer #redes-sociais img:hover {

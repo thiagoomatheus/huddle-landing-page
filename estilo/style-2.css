@@ -1,0 +1,30 @@
+/* Importando Configurações*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* Definindo Root*/
+
+:root {
+    --cor1: hsl(322, 100%, 66%); /* Pink */
+    --cor2: hsl(321, 100%, 78%);  /* Light Pink */
+    --cor3: hsl(0, 100%, 63%); /* Light Red */
+    --cor4: hsl(192, 100%, 9%); /* Very Dark Cyan */
+    --cor5: hsl(207, 100%, 98%); /* Very Pale Blue */
+
+    --fonte-titulos: 'Poppins', sans-serif;
+    --fonte-padrao: 'Open Sans', sans-serif; 
+}
+
+/*Geral CSS*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#clear {
+    clear: both;
+}
